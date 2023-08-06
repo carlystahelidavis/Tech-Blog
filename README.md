@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a MVC model application. It is a tech blog that allows a user to either log in or sign up, view all blog posts on the home page, view their own posts on the dashboard, and create new blog posts. The styling and project was based off the skeleton of a group project and then changed to work for this project. However, it ended up being more difficult to refactor the code rather than create it from scratch. Lesson learned. The styling and functionality could use more work to make it more user-friendly.
+This project is a MVC model application. It is a tech blog that allows a user to either log in or sign up, view all blog posts on the home page, view their own posts on the dashboard, and create new blog posts. The styling and project was based off the skeleton of a group project and then changed to work for this project. This is a work in progress and needs a lot more styling done to make it look better. 
 
 ## Installation and Usage
 
