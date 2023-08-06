@@ -1,0 +1,38 @@
+<div>
+  <h2 id="dashboard-title">My Blog Posts</h2>
+  <button id="return-home-btn">Return Home</button>
+  {{#if myPosts.length}}
+    <div class="blogpost-card-container">
+
+      {{#each myPosts as |myPosts|}}
+        <a class="blogpost-card" href="/blog-post/{{id}}">
+          <div class="blogpost-container">
+            <div>
+              <h5 class="blogpost-title">{{myPosts.title}}</h5>
+              <p class="blogpost-info">You posted this on
+                {{myPosts.date_created}}</p>
+            </div>
+            <p class="blogpost-description">{{myPosts.contents}}</p>
+          </div>
+        </a>
+      {{/each}}
+    </div>
+  {{/if}}
+  <div>
+    <button id="new-blogpost-btn">
+      New Blog Post
+    </button>
+  </div>
+</div>
+<div id="new-blogpost-container">
+  <form>
+    <p>Title</p>
+    <input id="title-input" placeholder="Name your post" />
+    <p>Contents</p>
+    <input id="contents-input" placeholder="Write your post here" />
+    <button id="submitBlogpostBtn">Post</button>
+    <button id="cancel-blogpost-btn">Cancel</button>
+  </form>
+</div>
+
+<script src="/js/blogpost.js"></script>
