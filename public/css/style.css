@@ -1,0 +1,179 @@
+    .open-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: auto;
+    border-radius: px;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  
+  .blogpost-container {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(216, 175, 175);
+    border-radius: 1rem;
+  }
+  
+  .blogpost-container input[type="form-input"],
+  .blogpost-container input[type="form-input"] {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .blogpost-container input[type="form-input"]:focus,
+  .blogpost-container input[type="form-input"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .blogpost-container .btn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
+  .blogpost-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+    
+  body {
+    font-family: "Inter Tight", sans-serif;
+  }
+  
+  h1 {
+    font-size: 100px;
+  }
+  
+  .blogpost-card {
+    width: 30%;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    margin: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+  .blogpost-card:hover {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .blogpost-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .blogpost-title {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  .single-blogpost {
+    border-radius: 2rem;
+    border: 10px solid #f1f1f1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .single-blogpost-contents {
+    border: 2px solid #f1f1f1;
+    padding: 1rem;
+  }
+  
+  .return-btn {
+    padding: 16px 20px;
+    position: fixed;
+    top: 20%;
+    right: 28px;
+    border-radius: 5px;
+  }
+  
+  #logout {
+    padding: 16px 20px;
+    background-color: none;
+  }
+  
+  nav {
+    position: fixed;
+    top: 13%;
+    right: 28px;
+  }
+  #dashboard-title {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  #return-home-btn {
+    position: fixed;
+    top: 20%;
+    right: 28px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #return-home-btn:hover {
+    background-color: #04aa6d;
+    color: white;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  #new-blogpost-container {
+    right: 50%;
+    border-radius: 2rem;
+    border: 10px solid #f1f1f1;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-left: 5rem;
+  }
+  
+  #title-input {
+      width: 50%;
+  }
+  
+  #contents-input {
+      width: 50%;
+  }
